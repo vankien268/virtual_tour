@@ -1,0 +1,309 @@
+@media only screen {
+
+    div#audiojs_wrapper0 {
+        max-width: 100%;
+    }
+
+    #modalLang .mfp-close {
+        display: none;
+    }
+
+    .post-item img {
+        max-width: 100% !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .dl-hidden {
+        display: none !important;
+    }
+
+    .dl-show {
+        display: block;
+    }
+
+    .dl-fixed {
+        position: fixed !important;
+    }
+
+    .dl-path-none{
+        clip-path: none !important;
+    }
+
+    .del-none-fixed {
+        position: absolute;
+    }
+
+    .top-20 {
+        top: 20px !important;
+    }
+
+    .pull-left {
+        padding: 15px !important;
+        width: 100% !important;
+    }
+
+    .btn-lang {
+        background: none;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #8c5038;
+        color: #8c5038;
+        display: block;
+    }
+
+    .btn-lang:hover {
+        background: #8c5038;
+        border: none;
+    }
+
+
+    .room-image img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .room-title h4 {
+        padding: 24px;
+        font-weight: 600;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 25px;
+        -webkit-line-clamp: 3;
+        height: 75px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        margin-bottom: 0;
+    }
+
+    section#section4 {
+        margin-bottom: -40px;
+    }
+
+    .room {
+        overflow: hidden;
+        box-shadow: rgb(130 141 151 / 20%) 0px 8px 24px;
+        margin-bottom: 15px;
+    }
+
+    .paginate-link {
+        overflow: hidden;
+        padding: 15px;
+    }
+
+    .footer-content {
+        /* margin: -6px 0; */
+        padding: 20px 0;
+    }
+
+    span {
+        font-size: 14px !important;
+    }
+
+    .test h5 {
+        font-size: 15px;
+    }
+
+    .test h5 {
+        padding-left: 10px;
+    }
+
+    .single-post .post-item .post-item-description {
+        padding: 0 0;
+    }
+
+    .single-post .post-item .post-item-description p {
+        margin-bottom: 0;
+        text-align: left;
+        -webkit-text-align: left;
+        -moz-text-align: left;
+        -o-text-align: left;
+        /*-webkit-appearance: none;*/
+    }
+
+    /*.list-lang {*/
+    /*    top: 20%;*/
+    /*    left: 50%;*/
+    /*    position: absolute;*/
+    /*    transform: translate(-50%, -50%);*/
+    /*}*/
+    div#modalLang {
+        max-width: 100%;
+        height: 100vh;
+    }
+
+    .post-image img {
+        height: 200px !important;
+        object-fit: cover;
+    }
+
+    div#mainMenu-trigger {
+        width: 100px;
+    }
+
+    .room-image img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    div#modal-2 {
+        border-radius: 4px;
+        display: block;
+        margin: 0 auto;
+        /*max-width: 500px;*/
+        width: 100%;
+        height: 100%;
+        /*padding: 40px;*/
+        position: fixed;
+        z-index: 500;
+        top: 50%;
+        right: 0;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    li.active {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 25px;
+        -webkit-line-clamp: 1;
+        height: 26px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        margin-bottom: 0;
+    }
+
+    .img-play i {
+        font-size: 45px;
+        color: #9f745b;
+        animation-name: example;
+        /*animation-duration: 3s;*/
+        /*animation-iteration-count: 2;*/
+        animation: bounce; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+    }
+
+    /*@keyframes example {*/
+    /*    from {*/
+    /*       color: black;*/
+    /*        font-size: 45px;*/
+    /*    }*/
+    /*    to {*/
+    /*        color: #0a58ca;*/
+    /*        font-size: 30px;*/
+    /*    }*/
+    /*}*/
+    .img-play {
+        border-radius: 5px;
+        padding: 30px 45px;
+        background: white;
+        box-shadow: 0px 4px 4px #9c6f55;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .box-play {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .box-play::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(120deg, #a49156ad, #d8e3db);
+        opacity: .3;
+        cursor: pointer;
+    }
+
+    #menu-close-2{
+        position: fixed;
+        z-index: 2;
+        right: 20px;
+        top: 82px;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        font-size: 20px;
+        color: #fff;
+        cursor: pointer;
+        background: linear-gradient(-135deg, #000000, #a57865);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav-list #active:checked ~ .menu-btn-2 {
+        background: #a57865;
+        color: #ffffff;
+    }
+
+    .nav-list #active:checked ~ .menu-btn-2 i:before {
+        content: "\f00d";
+    }
+
+    .nav-list #active:checked ~ .menu-btn-3 {
+        background: #a57865;
+        color: #ffffff;
+    }
+
+    .nav-list #active:checked ~ .menu-btn-3 i:before {
+        content: "\f00d";
+    }
+
+
+    label#menu-close-3{
+        background: #a57865;
+        color: #ffffff;
+        position: fixed;
+        z-index: 2;
+        right: 20px;
+        top: 20px;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        font-size: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav-list .menu-btn-3 i {
+        content: "\f00d" !important;
+    }
+    .nav-list .menu-btn-3 i:before {
+        content: "\f00d" !important;
+    }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media only screen and (min-width: 992px) {
+    div#modalLang {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}

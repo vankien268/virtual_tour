@@ -1,0 +1,28 @@
+#toggleOldPass{
+    cursor: pointer;
+    position: relative;
+    top: -26px;
+    left: 250px;
+    }
+
+#toggleNewPass{
+    cursor: pointer;
+    position: relative;
+    top: -26px;
+    left: 250px;
+    }
+
+#toggleConfirmPass{
+    cursor: pointer;
+    position: relative;
+    top: -26px;
+    left: 250px;
+    }
+
+#togglePassword{
+    cursor: pointer;
+    position: relative;
+    top: -43px;
+    left: 264px;
+    z-index: 100;
+    }
